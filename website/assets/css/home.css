@@ -1,0 +1,104 @@
+#home-container {
+    background: url("../../assets/images/bg2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#home-container #welcome-banner {
+    height: 65vh;
+}
+
+#home-container .logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-container .logo-wrapper img {
+    height: 180px;
+    margin: 20px 0;
+}
+
+#home-container #image-container-1 {
+    background-image: url("../images/laptop_7.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    transition: all 0.3s ease;
+    color: white;
+    position: relative;
+}
+
+#home-container .welcome-shader {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.653);
+}
+
+@media only screen and (max-width: 850px) {
+    #home-container #image-container-1 {
+        height: 450px;
+    }
+
+    #home-container .logo-wrapper img {
+        width: 80%;
+        height: auto;
+        margin: 20px 0;
+    }
+}
+
+.services-swiper {
+    height: 350px;
+}
+
+.services-swiper .swiper-slide {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.services-swiper .swiper-slide>div {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: #e1e1e1;
+    position: relative;
+}
+
+.services-swiper .swiper-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.services-swiper .swiper-slide .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: var(--colorAccent);
+    color: white;
+}
+
+.services-swiper .swiper-slide .shader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(138, 52, 52, 0.151);
+}
+
+.services-swiper .swiper-slide:hover .services-swiper .swiper-slide img {
+    transform: scale(1.1);
+}
+
+.services-swiper .swiper-pagination {
+    margin-top: 20px;
+}
