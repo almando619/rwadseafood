@@ -24,6 +24,10 @@
         </div>
 
         <!-- about section -->
+        <div class="app-padding mt-50 mb-20">
+            <h2 class="text-align-center">Who We Are</h2>
+        </div>
+
         <div id="about-section" class="flex-row">
             <div id="left" class="container-50">
                 <h2>Our Story</h2>
@@ -32,13 +36,87 @@
                     superior-quality seafood, nestled in the Sultanate of Oman. Our state-of-the-art processing facility,
                     strategically located in the Mabella industrial area, is where our commitment to excellence takes form.
                 </p>
-                <a href="about">
+                <a href="about" class="app-link-button">
                     <div class="shader"></div>
                     <div class="text">MORE ABOUT US</div>
                 </a>
             </div>
             <div class="container-50" id="right"></div>
         </div>
+        <!-- about section -->
+
+        <!-- product categories -->
+        <div class="app-padding mt-50 mb-20">
+            <h2 class="text-align-center">Product Categories</h2>
+        </div>
+
+        <div id="product-categories-container" class="app-padding">
+            <a href="#" class="category-item">
+                <div>
+                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <div class="shader"></div>
+                    <div class="title">Large Pelagics</div>
+                </div>
+            </a>
+            <a href="#" class="category-item">
+                <div>
+                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <div class="shader"></div>
+                    <div class="title">Small Pelagics</div>
+                </div>
+            </a>
+            <a href="#" class="category-item">
+                <div>
+                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <div class="shader"></div>
+                    <div class="title">Demersal</div>
+                </div>
+            </a>
+            <a href="#" class="category-item">
+                <div>
+                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <div class="shader"></div>
+                    <div class="title">Sharks & Rays</div>
+                </div>
+            </a>
+            <a href="#" class="category-item">
+                <div>
+                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <div class="shader"></div>
+                    <div class="title">Crustaceans</div>
+                </div>
+            </a>
+        </div>
+        <!-- product categories -->
+
+        <!--  -->
+        <div id="about-section-2" class="flex-row mt-100">
+            <div class="container-50" id="left"></div>
+            <div id="right" class="container-50">
+                <h2>A Bounty of Fresh Seafood</h2>
+                <p id="str-home-about-us">
+                    Discover an array of premium seafood delicacies, sourced predominantly from the pristine waters of Oman.
+                    From Grey Mullet to Trevally, Marlin to Tuna, our diverse selection is available fresh, frozen, or
+                    expertly processed to meet your culinary preferences.
+                </p>
+                <a href="about" class="app-link-button">
+                    <div class="shader"></div>
+                    <div class="text"> <i class="fas fa-fish mr-5"></i>SEE PRODUCTS</div>
+                </a>
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- featured products -->
+        <div class="app-padding mt-50 mb-20">
+            <h2 class="text-align-center">Featured Products</h2>
+        </div>
+
+        <div style="height:300px; color:white; background:black;" class="flex-row align-items-center justify-content-center mb-100">
+            ⚙️ This part is under development...
+        </div>
+
+        <!-- featured products -->
     </div>
     <?php include_once("components/footer.php") ?>
     <?php include_once("components/script-imports.php") ?>

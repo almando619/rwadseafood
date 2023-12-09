@@ -54,16 +54,17 @@
     text-align: center;
 }
 
-#about-section #left a {
+.app-link-button {
     border: 1px solid white;
     transition: all 0.4s ease;
     padding: 10px;
     color: white !important;
     margin: 20px;
     position: relative;
+    text-align: center;
 }
 
-#about-section #left a .shader {
+.app-link-button .shader {
     height: 0;
     width: 100%;
     background-color: rgba(58, 52, 52, 0.295);
@@ -74,11 +75,11 @@
     z-index: 1;
 }
 
-#about-section #left a .text {
+.app-link-button .text {
     z-index: 2;
 }
 
-#about-section #left a:hover>.shader {
+.app-link-button:hover>.shader {
     height: 100%;
 }
 
@@ -87,4 +88,95 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
+}
+
+#product-categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.category-item {
+    margin: 5px;
+}
+
+.category-item>div:hover>img {
+    transform: scale(1);
+}
+
+.category-item>div {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.category-item>div .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgba(34, 29, 84, 0.188);
+    backdrop-filter: grayscale(70%) blur(2px);
+    -webkit-backdrop-filter: grayscale(70%) blur(4px);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    height: 50px;
+}
+
+.category-item>div:hover>.title {
+    background-color: rgba(0, 0, 0, 0.419);
+    backdrop-filter: grayscale(90%) blur(4px);
+    -webkit-backdrop-filter: grayscale(90%) blur(2px);
+    height: 100%;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-item img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s ease;
+    object-fit: cover;
+    transform: scale(1.1);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.category-item .shader {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.13);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+#about-section-2 #left {
+    background-image: url("../images/fish_6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+#about-section-2 #right {
+    background-color: var(--colorPrimary);
+    color: white !important;
+    padding: 30px var(--appPadding);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
