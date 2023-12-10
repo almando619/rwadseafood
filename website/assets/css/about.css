@@ -1,0 +1,34 @@
+#about-cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+}
+
+#about-img-1 {
+    height: 300px;
+    background-image: url(../images/fish_5.jpg);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+#about-img-2 {
+    height: 300px;
+    background-image: url(../images/fish_7.jpg);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+#about-img-3 {
+    height: 250px;
+    background-image: url(../images/category_crustaceans.jpg);
+    background-size: cover;
+    border-radius: 8px;
+}
+
+#about-img-4 {
+    height: 250px;
+    background-image: url(../images/category_demersal.jpg);
+    background-size: cover;
+    border-radius: 8px;
+}

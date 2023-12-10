@@ -1,6 +1,6 @@
 <div class="top-bar">
     <div class="left">
-        <div class="logo flex-row align-items-center">
+        <div class="logo align-items-center">
             <img src="assets/icons/logo.png" id="logo-icon" alt="RWAD" class="mr-10">
             <div id="logo-text">RWAD AL-IBTIKAR CO L.L.C</div>
         </div>

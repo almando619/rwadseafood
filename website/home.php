@@ -53,35 +53,35 @@
         <div id="product-categories-container" class="app-padding">
             <a href="#" class="category-item">
                 <div>
-                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <img src="./assets/images/category_large_pelagics.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Large Pelagics</div>
                 </div>
             </a>
             <a href="#" class="category-item">
                 <div>
-                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <img src="./assets/images/category_small_pelagics.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Small Pelagics</div>
                 </div>
             </a>
             <a href="#" class="category-item">
                 <div>
-                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <img src="./assets/images/category_demersal.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Demersal</div>
                 </div>
             </a>
             <a href="#" class="category-item">
                 <div>
-                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <img src="./assets/images/category_sharks.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Sharks & Rays</div>
                 </div>
             </a>
             <a href="#" class="category-item">
                 <div>
-                    <img src="./assets/images/category_fish.jpg" alt="fish">
+                    <img src="./assets/images/category_crustaceans.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Crustaceans</div>
                 </div>
@@ -99,7 +99,7 @@
                     From Grey Mullet to Trevally, Marlin to Tuna, our diverse selection is available fresh, frozen, or
                     expertly processed to meet your culinary preferences.
                 </p>
-                <a href="about" class="app-link-button">
+                <a href="products" class="app-link-button">
                     <div class="shader"></div>
                     <div class="text"> <i class="fas fa-fish mr-5"></i>SEE PRODUCTS</div>
                 </a>

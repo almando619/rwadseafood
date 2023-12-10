@@ -34,6 +34,7 @@
 <link rel="stylesheet" type="text/css" href="assets/css/top-bar.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/footer.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/home.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/about.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/products.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/contacts.css" />
 <!-- pages and components css -->
