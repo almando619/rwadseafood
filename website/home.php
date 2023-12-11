@@ -112,10 +112,128 @@
             <h2 class="text-align-center">Featured Products</h2>
         </div>
 
-        <div style="height:300px; color:white; background:black;" class="flex-row align-items-center justify-content-center mb-100">
-            ⚙️ This part is under development...
+        <div id="featured-products-section" class="mb-100">
+            <div class="product-item">
+                <div class="img-container">
+                    <img src="./assets/images/products/grey_mullet.png" alt="Grey Mullet">
+                </div>
+                <div class="name">Grey Mullet</div>
+                <div class="form">
+                    <div class="title">
+                        Form
+                    </div>
+                    <div class="value">
+                        Raw
+                    </div>
+                </div>
+                <div class="size-grades">
+                    <div class="title">
+                        Size Grades
+                    </div>
+                    <div class="value">
+                        200/300, 300/400 gms/piece
+                    </div>
+                </div>
+                <div class="packaging">
+                    <div class="title">
+                        Packaging
+                    </div>
+                    <div class="value">
+                        1 x 10Kg - IQF/IWP
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="img-container">
+                    <img src="./assets/images/products/grouper_epinephelus.png" alt="Grey Mullet">
+                </div>
+                <div class="name">Grouper</div>
+                <div class="form">
+                    <div class="title">
+                        Form
+                    </div>
+                    <div class="value">
+                        Raw
+                    </div>
+                </div>
+                <div class="size-grades">
+                    <div class="title">
+                        Size Grades
+                    </div>
+                    <div class="value">
+                        200/300, 300/400 gms/piece
+                    </div>
+                </div>
+                <div class="packaging">
+                    <div class="title">
+                        Packaging
+                    </div>
+                    <div class="value">
+                        1 x 10Kg - IQF/IWP
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="img-container">
+                    <img src="./assets/images/products/sweet_lips.png" alt="Grey Mullet">
+                </div>
+                <div class="name">Sweet Lips</div>
+                <div class="form">
+                    <div class="title">
+                        Form
+                    </div>
+                    <div class="value">
+                        Raw
+                    </div>
+                </div>
+                <div class="size-grades">
+                    <div class="title">
+                        Size Grades
+                    </div>
+                    <div class="value">
+                        200/300, 300/400 gms/piece
+                    </div>
+                </div>
+                <div class="packaging">
+                    <div class="title">
+                        Packaging
+                    </div>
+                    <div class="value">
+                        1 x 10Kg - IQF/IWP
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="img-container">
+                    <img src="./assets/images/products/trevally_canvas.png" alt="Travelly Canvas">
+                </div>
+                <div class="name">Trevelly Canvas</div>
+                <div class="form">
+                    <div class="title">
+                        Form
+                    </div>
+                    <div class="value">
+                        Raw
+                    </div>
+                </div>
+                <div class="size-grades">
+                    <div class="title">
+                        Size Grades
+                    </div>
+                    <div class="value">
+                        200/300, 300/400 gms/piece
+                    </div>
+                </div>
+                <div class="packaging">
+                    <div class="title">
+                        Packaging
+                    </div>
+                    <div class="value">
+                        1 x 10Kg - IQF/IWP
+                    </div>
+                </div>
+            </div>
         </div>
-
         <!-- featured products -->
     </div>
     <?php include_once("components/footer.php") ?>

@@ -180,3 +180,11 @@
     justify-content: center;
     flex-direction: column;
 }
+
+#featured-products-section {
+    padding: 0 var(--appPadding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
