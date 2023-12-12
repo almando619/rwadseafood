@@ -9,7 +9,7 @@
   --colorPrimaryDark: #03034b;
   --colorSecondary: #821313;
   --colorAccent: #821313;
-  --colorAccentLight: #894848;
+  --colorAccentLight: #8d40404d;
 
   --topBarHeight: 100px;
   --appPadding: 100px;
@@ -345,7 +345,7 @@ a {
 
 
 .app-padding {
-  padding: 0 var(--appPadding);
+  padding: 0 var(--appPadding) !important;
 }
 
 @media only screen and (max-width: 700px) {

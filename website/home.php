@@ -18,8 +18,8 @@
             <div class="home-cover-content">
                 <img src="./assets/icons/logo.png" alt="">
                 <h2>RWAD AL-IBTIKAR CO L.L.C</h2>
-                <h3>Seafood Producer</h3>
-                <h3>Excellent Services, Quality Products</h3>
+                <h4>Seafood Processor</h4>
+                <h4 class="mt-30">FROM OUR OCEANS TO YOUR TABLE</h4>
             </div>
         </div>
 
