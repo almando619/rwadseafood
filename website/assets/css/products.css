@@ -1,9 +1,11 @@
 #products-cover {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 340px;
-    flex-shrink: 0;
+    padding-bottom: 100px;
+}
+
+#products-cover h1 {
+    margin-top: 150px;
 }
 
 .product-item {
