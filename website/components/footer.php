@@ -19,7 +19,7 @@
                         sales@rwadseafood.com
                     </div>
                 </a>
-                <a href="#" class="footer-link">
+                <a href="https://maps.app.goo.gl/vc6M2Cx4oWGz6uPPA" class="footer-link">
                     <div class="icon">
                         <img src="./assets/icons/icon_location.png" alt="✉️">
                     </div>

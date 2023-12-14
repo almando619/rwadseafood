@@ -55,7 +55,12 @@
                     <div class="container-50 p-5">
                         <div class="form-input">
                             <label for="enquiry-type">Enquiry Type</label>
-                            <input type="enquiry-type" required name="enquiry-type" id="enquiry-type">
+                            <select name=enquiry-type id="enquiry-type">
+                                <option value="order">Order a product</option>
+                                <option value="question">Ask question</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="other">Other</option>
+                            </select>
                         </div>
                     </div>
                     <div class="container-100 p-5">
@@ -76,7 +81,7 @@
             <!-- map -->
             <div class="container-50 p-50">
                 <h3>Where to find us</h3>
-                <iframe class="mb-50 mt-10" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36688.18291615615!2d58.07200756596166!3d23.646875033878608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8de41de1ea537d%3A0xd4bfc9d36553eb51!2sMa&#39;abilah%20Industrial%20Area%2C%20Seeb%2C%20Oman!5e0!3m2!1sen!2stz!4v1702548117720!5m2!1sen!2stz" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="mb-50 mt-10" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d728.699860557837!2d58.09967066100349!3d23.652743376189303!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8de5145c55972b%3A0x34f2ec87fedd7335!2sFish%20factory!5e0!3m2!1sen!2stz!4v1702561324922!5m2!1sen!2stz" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!-- map -->
         </div>
