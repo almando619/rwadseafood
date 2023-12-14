@@ -44,6 +44,33 @@
         </div>
         <!-- Mobile view links -->
 
+        <!-- change language -->
+        <div class="language-container">
+            <div class="main" >
+                <img class="icon-lang-main" src="./assets/icons/icon_en.png" alt="lang">
+                <div class="text-lang-main">
+                    EN
+                </div>
+                <div class="icon-lang-arrow">
+                    <i class="fas fa-caret-down text-secondary"></i>
+                </div>
+                <div id="language-container-main"></div>
+            </div>
+            <!-- popper -->
+            <div class="lang-popper">
+                <div class="option" id="lang-option-en">
+                    <img class="icon-lang" src="./assets/icons/icon_en.png" alt="lang">
+                    <div class="text">EN</div>
+                </div>
+                <div class="option" id="lang-option-ar">
+                    <img class="icon-lang" src="./assets/icons/icon_om.png" alt="lang">
+                    <div class="text">AR</div>
+                </div>
+            </div>
+            <!-- popper -->
+        </div>
+        <!-- change language -->
+
         <!-- Menu icon -->
         <div class="menu-icon" id="menu-icon">
             <i id="menu-icon-i" class="fas fa-bars-staggered"></i>

@@ -121,3 +121,81 @@
 .top-bar .active-link i {
   color: var(--colorPrimary) !important;
 }
+
+/* language */
+.language-container {
+  position: relative;
+}
+
+.language-container .main {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--colorAccentLight);
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+#language-container-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.language-container .main:hover {
+  cursor: pointer;
+  background-color: #4f3b3b43;
+}
+
+.text-lang {
+  padding: 3px;
+  font-size: 0.9rem;
+}
+
+
+.icon-lang,
+.icon-lang-main {
+  padding: 0 3px;
+  width: 35px;
+}
+
+.icon-lang-arrow {
+  padding: 3px;
+}
+
+.icon-lang-arrow i {
+  font-size: 1.1rem;
+  color: var(--colorPrimary);
+}
+
+.lang-popper {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 3px 10px 1px rgba(90, 90, 90, 0.4);
+  z-index: 3;
+  display: none;
+}
+
+.lang-popper .option {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d1d1d1
+}
+
+.lang-popper .option:hover {
+  cursor: pointer;
+  background-color: #4f3b3b43;
+}
+
+.lang-popper .option img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+/* language */
