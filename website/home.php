@@ -51,35 +51,35 @@
         </div>
 
         <div id="product-categories-container" class="app-padding">
-            <a href="#" class="category-item">
+            <a href="products?category=large-pellagics" class="category-item">
                 <div>
                     <img src="./assets/images/category_large_pelagics.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Large Pelagics</div>
                 </div>
             </a>
-            <a href="#" class="category-item">
+            <a href="products?category=small-pellagics" class="category-item">
                 <div>
                     <img src="./assets/images/category_small_pelagics.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Small Pelagics</div>
                 </div>
             </a>
-            <a href="#" class="category-item">
+            <a href="products?category=demersal" class="category-item">
                 <div>
                     <img src="./assets/images/category_demersal.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Demersal</div>
                 </div>
             </a>
-            <a href="#" class="category-item">
+            <a href="products?category=sharks" class="category-item">
                 <div>
                     <img src="./assets/images/category_sharks.jpg" alt="fish">
                     <div class="shader"></div>
                     <div class="title">Sharks & Rays</div>
                 </div>
             </a>
-            <a href="#" class="category-item">
+            <a href="products?category=crustaceans" class="category-item">
                 <div>
                     <img src="./assets/images/category_crustaceans.jpg" alt="fish">
                     <div class="shader"></div>

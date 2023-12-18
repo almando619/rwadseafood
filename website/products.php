@@ -15,7 +15,7 @@
 
         <!-- categories container -->
         <div class="app-padding categories-container flex-row justify-content-center">
-            <div class="product-category-chip active-category" id="category-all">
+            <div class="product-category-chip" id="category-all">
                 All
             </div>
             <div class="product-category-chip" id="category-large-pellagics">
@@ -24,13 +24,13 @@
             <div class="product-category-chip" id="category-small-pellagics">
                 Small Pellagics
             </div>
-            <div class="product-category-chip" id="category-small-pellagics">
+            <div class="product-category-chip" id="category-demersal">
                 Demersal
             </div>
-            <div class="product-category-chip" id="category-small-pellagics">
+            <div class="product-category-chip" id="category-sharks">
                 Sharks & Rays
             </div>
-            <div class="product-category-chip" id="category-small-pellagics">
+            <div class="product-category-chip" id="category-crustaceans">
                 Crustaceans
             </div>
         </div>
