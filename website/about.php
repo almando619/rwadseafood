@@ -78,6 +78,15 @@
             </div>
         </div>
         <!-- section 4 -->
+
+        <!-- about products swiper -->
+        <h2 class="text-align-center">Photo Gallery</h2>
+        <div class="swiper" id="about-products-swiper">
+            <div class="swiper-wrapper">
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- about products swiper -->
     </div>
     <?php include_once("components/footer.php") ?>
     <?php include_once("components/script-imports.php") ?>

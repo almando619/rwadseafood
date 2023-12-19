@@ -35,3 +35,39 @@
     background-size: cover;
     border-radius: 8px;
 }
+
+/* swiper */
+
+#about-products-swiper {
+    height: 350px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+#about-products-swiper .swiper-slide {
+    height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#about-products-swiper .swiper-slide img {
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#about-products-swiper .swiper-slide:hover>img {
+    transform: scale(1);
+}
+
+#about-products-swiper .swiper-pagination-bullet {
+    background-color: var(--colorSecondary);
+}
+
+
+/* swiper */
