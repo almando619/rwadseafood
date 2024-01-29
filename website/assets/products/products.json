@@ -1,0 +1,312 @@
+[
+  {
+    "name": {
+      "en": "Barracuda",
+      "ar": "سمك باراكودا"
+    },
+    "image": "./assets/images/products/barracuda.png",
+    "species": "Siluriformes",
+    "grades": [
+      "300/500 GRAMS PER PIECES",
+      "500/1000 GRAMS PER PIECES",
+      "1/2 KG PER PIECES",
+      "2/3 KG PER PIECES",
+      "3/5 KG PER PIECES"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Catfish",
+      "ar": "سمك سلور"
+    },
+    "image": "./assets/images/products/catfish.png",
+    "species": "Sphyraena",
+    "grades": [
+      "1/2 pieces per KG",
+      "2/3 pieces per KG",
+      "3/5 pieces per KG",
+      "5/up pieces per KG"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Cuttle Fish",
+      "ar": "غت - حبار"
+    },
+    "image": "./assets/images/cuttle_fish.png",
+    "species": "Sepiida",
+    "grades": [
+      "300/500 GRAMS PER PIECES",
+      "500/1000 GRAMS PER PIECES",
+      "1/2 KG PER PIECES",
+      "2/3 KG PER PIECES",
+      "3/5 KG PER PIECES"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Chub Mackerel",
+      "ar": "ماكريل"
+    },
+    "image": "./assets/images/chub_mackerel.png",
+    "species": "Scomber japonicus",
+    "grades": [
+      "2/4 PIECES PER KG",
+      "4/6 PIECES PER KG",
+      "6/8 PIECES PER KG",
+      "8/10 PIECES PER KG",
+      "10/20 PIECES PER KG"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Croaker",
+      "ar": "سمك شماهي"
+    },
+    "image": "./assets/images/croaker.png",
+    "species": "Siganidae",
+    "grades": [
+      "300/500 GRAMS PER PIECES",
+      "500/1000 GRAMS PER PIECES",
+      "1/2 KG PER PIECES",
+      "2/3 KG PER PIECES"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Emperor",
+      "ar": "شعري سمك"
+    },
+    "image": "./assets/images/emperor.png",
+    "species": "Lethrinidae",
+    "grades": [
+      "300/500 GRAMS PER PIECES",
+      "500/1000 GRAMS PER PIECES",
+      "1/2 KG PER PIECES",
+      "2/3 KG PER PIECES"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Grey Mullet",
+      "ar": "بياح"
+    },
+    "image": "./assets/images/grey_mullet.png",
+    "species": "Mugil cephalus",
+    "grades": [
+      "500/1000 grams per pieces",
+      "1/2 kg per pieces",
+      "2/4 kg per pieces",
+      "4/6 pieces per Kg",
+      "6/8 pieces per Kg",
+      "8/10 pieces per Kg",
+      "10/15 pieces per Kg",
+      "15/20 pieces per Kg",
+      "20/30 pieces per Kg"
+    ],
+    "value": ["Whole round"],
+    "category": "small pellagics"
+  },
+  {
+    "name": {
+      "en": "Grouper",
+      "ar": "سمك هامور"
+    },
+    "image": "./assets/images/grouper.png",
+    "species": "Epinephelinae",
+    "grades": [
+      "300/500 GRAMS PER PIECES",
+      "500/1000 GRAMS PER PIECES",
+      "1/2 KG PER PIECES",
+      "2/3 KG PER PIECES"
+    ],
+    "value": ["Whole round"],
+    "category": "demersal"
+  },
+  {
+    "name": {
+      "en": "Hilsa",
+      "ar": "هلسا"
+    },
+    "image": "./assets/images/hilsa.png",
+    "species": "Tenualosa ilisha",
+    "grades": [
+      "1/2 pieces per kg",
+      "2/4 pieces per kg",
+      "4/6 pieces per kg",
+      "6/8 pieces per kg",
+      "8/10 pieces per kg",
+      "10/20 pieces per kg"
+    ],
+    "value": ["Whole round"],
+    "category": "small pellagics"
+  },
+  {
+    "name": {
+      "en": "Horse Mackerel",
+      "ar": "Trachurus trachurus"
+    },
+    "image": "./assets/images/horse_mackerel.png",
+    "species": "Trachurus trachurus",
+    "grades": [
+      "2/4 PIECES PER KG",
+      "4/6 PIECES PER KG",
+      "6/8 PIECES PER KG",
+      "8/10 PIECES PER KG",
+      "10/20 PIECES PER KG"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Indian Mackerel",
+      "ar": "الماكريل الهندي - باغة"
+    },
+    "image": "./assets/images/indian_mackerel.png",
+    "species": "Rastrelliger kanagurta",
+    "grades": [
+      "2/4 PIECES PER KG",
+      "4/6 PIECES PER KG",
+      "6/8 PIECES PER KG",
+      "8/10 PIECES PER KG",
+      "10/20 PIECES PER KG"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Jack Mackerel",
+      "ar": "الماكريل"
+    },
+    "image": "./assets/images/products/jack_mackerel.png",
+    "species": "Trachurus trachurus",
+    "grades": [
+      "2/4 PIECES PER KG",
+      "4/6 PIECES PER KG",
+      "6/8 PIECES PER KG",
+      "8/10 PIECES PER KG",
+      "10/20 PIECES PER KG"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "King Fish",
+      "ar": "كنعد"
+    },
+    "image": "./assets/images/products/king_fish.png",
+    "species": "Scomberomorus cavalla",
+    "grades": [
+      "5KG TO 10 KG PER PIECES",
+      "10KG TO 20 KG PER PIECES",
+      "25 KG/UP PER PIECES"
+    ],
+    "value": ["Headless & Gutted", "Fillets"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Ribbon Fish",
+      "ar": "سمكة الشريط"
+    },
+    "image": "./assets/images/products/ribbon_fish.png",
+    "species": "Trachipteridae",
+    "grades": [
+      "300/500 grams per pieces",
+      "500/1000 grams per pieces",
+      "1/2 kg per pieces,"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Sardine",
+      "ar": "عومه"
+    },
+    "image": "./assets/images/products/sardine.png",
+    "species": "Sardinella Longiceps",
+    "grades": [
+      "8/10 PIECES PER KG",
+      "10/15 PIECES PER KG",
+      "10/20 PIECES PER KG",
+      "20/30 PIECES PER KG",
+      "30/40 PIECES PER KG",
+      "40/50 PIECES PER KG",
+      "50/60 PIECES PER KG",
+      "60/70 PIECES PER KG",
+      "70/80 PIECES PER KG"
+    ],
+    "value": ["Headless & Tailless"],
+    "category": "small pellagics"
+  },
+  {
+    "name": {
+      "en": "Trevally",
+      "ar": "سمك بياض"
+    },
+    "image": "./assets/images/products/trevally.png",
+    "species": "Carangidae",
+    "grades": [
+      "1/2 pieces per KG",
+      "2/3 pieces per KG",
+      "3/5 pieces per KG",
+      "5/up pieces per KG"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Yellow Fish Tuna",
+      "ar": "سمك التونة الأصفر"
+    },
+    "image": "./assets/images/products/yellow_fish_tuna.png",
+    "species": "Thunnus albacares",
+    "grades": [
+      "5KG TO 10 KG PER PIECES",
+      "10KG TO 20 KG PER PIECES",
+      "25 KG/UP PER PIECES",
+      "50 KG/UP PER PIECES",
+      "75 KG/UP PER PIECES"
+    ],
+    "value": ["Headless & Gutted", "Fillets", "Loins", "Chunks"],
+    "category": "large pellagics"
+  },
+  {
+    "name": {
+      "en": "Yellow Tail Scad",
+      "ar": "دردمان"
+    },
+    "image": "./assets/images/products/yellow_tail_scad.png",
+    "species": "Atule mate",
+    "grades": [
+      "8/10 PIECES PER KG",
+      "10/15 PIECES PER KG",
+      "10/20 PIECES PER KG",
+      "20/30 PIECES PER KG",
+      "30/40 PIECES PER KG",
+      "40/50 PIECES PER KG",
+      "50/60 PIECES PER KG",
+      "60/70 PIECES PER KG",
+      "70/80 PIECES PER KG"
+    ],
+    "value": ["Whole round"],
+    "category": "large pellagics"
+  }
+]
