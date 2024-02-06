@@ -8,7 +8,7 @@
                         <img src="./assets/icons/icon_phone.png" alt="📞">
                     </div>
                     <div class="text">
-                        +24450068
+                        +24450069
                     </div>
                 </a>
                 <a href="mailto:sales@rwadseafood.com" class="footer-link">
