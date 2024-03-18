@@ -54,7 +54,6 @@ if (window.location.pathname === `${Config.PATHNAME}/contacts`) {
 
   //api calls
   const postMessage = () => {
-    alert("here");
     var formData = new FormData();
     formData.append("firstName", cleanInput(inputFirstName.val().trim()));
     formData.append("lastName", cleanInput(inputLastName.val().trim()));

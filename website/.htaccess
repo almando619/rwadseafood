@@ -7,6 +7,10 @@ Header Add Access-Control-Allow-Origin "*"
 RewriteEngine On
 RewriteBase /
 
+#force https
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # To externally redirect /dir/foo.php to /dir/foo
 RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
