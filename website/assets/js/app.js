@@ -22,3 +22,9 @@ const trimText = ({ text, length }) => {
     return text;
   }
 };
+
+const cleanInput = (value) => {
+  let _cleaned = value.toString().replace(/'/g, "\\'");
+  _cleaned = _cleaned.toString().replace(/"/g, `\\"`);
+  return _cleaned;
+};

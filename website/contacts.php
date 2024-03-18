@@ -36,14 +36,14 @@
                     </div>
                     <div class="container-50 p-5">
                         <div class="form-input">
-                            <label for="phone">Phone Number (optional)</label>
-                            <input type="phone" name="phone" id="phone">
+                            <label for="email">Email *</label>
+                            <input type="email" required name="email" id="email">
                         </div>
                     </div>
                     <div class="container-50 p-5">
                         <div class="form-input">
-                            <label for="email">Email *</label>
-                            <input type="email" required name="email" id="email">
+                            <label for="phone">Phone Number (optional)</label>
+                            <input type="phone" name="phone" id="phone">
                         </div>
                     </div>
                     <div class="container-50 p-5">
@@ -65,11 +65,12 @@
                     </div>
                     <div class="container-100 p-5">
                         <div class="form-input">
-                            <label for="enquiry-type">Message</label>
+                            <label for="message">Message</label>
                             <textarea name="message" id="message"></textarea>
                         </div>
                     </div>
-                    <div class="container-100  flex-row justify-content-center ">
+                    <div class="container-100  flex-column align-items-center justify-content-center ">
+                        <div id="feedback-container"></div>
                         <button id="button-submit">
                             SUBMIT
                         </button>

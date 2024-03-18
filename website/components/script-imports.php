@@ -7,3 +7,4 @@
 <script src="assets/js/home.js" type='module'></script>
 <script src="assets/js/products.js" type='module'></script>
 <script src="assets/js/about.js" type='text/javascript'></script>
+<script src="assets/js/contacts.js" type='text/javascript'></script>
