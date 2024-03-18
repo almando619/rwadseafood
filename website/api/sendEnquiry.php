@@ -29,7 +29,7 @@ if (
         $headers .= "Return-Path: admin@rwadseafood.com\r\n";
         $subject = "RWAD Seafood Website User Enquiry";
 
-        $email_message = "Hello, a user wrote an enquiry of type \"$message\" from the website.\n\n 
+        $email_message = "Hello, a user wrote an enquiry of type \"$enquiryType\" from the website.\n\n 
         User Particulars :\r\n 
         Name : $firstName $lastName\n
         Email address : $email\n
@@ -39,7 +39,6 @@ if (
         Message :\r\n
         $message.
         \r\n\r\n";
-        $email_message .= "$firstName $lastName said:\r\n\"$message\" \r\n\r\n";
         $email_message .= "Copyright RWAD Seafood $year \r\n";
 
 
