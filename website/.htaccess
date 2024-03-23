@@ -8,8 +8,8 @@ RewriteEngine On
 RewriteBase /
 
 #force https
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # To externally redirect /dir/foo.php to /dir/foo
 RewriteCond %{REQUEST_METHOD} !POST

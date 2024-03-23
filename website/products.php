@@ -52,8 +52,28 @@
         <!-- search container -->
 
         <!-- products container -->
-        <div class="products-container app-padding mb-50"></div>
+        <div class="products-container app-padding mb-100"></div>
         <!-- products container -->
+
+        <!-- product catalog -->
+        <div id="product-catalog" class="flex-row mt-100 mb-100">
+            <div id="left" class="container-50">
+                <h2>Get The Product Catalog</h2>
+                <p id="str-home-about-us" class="text-align-center">
+                    Need the PDF version of our products catalog for offline browsing?
+                    Provide us your email and we'll be happy to send it in no time!
+                </p>
+                <div id="get-catalog-form" class="app-form full-width catalog-form mt-20 mb-20 flex-column">
+
+                    <input type="email" name="user-email" id="user-email" placeholder="youremail@domain.ext" />
+                    <div class="flex-row justify-content-center mt-10">
+                        <button id="btn-get-catalog">GET CATALOG</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-50" id="right"></div>
+        </div>
+        <!-- product catalog -->
 
     </div>
     <?php include_once("components/footer.php") ?>

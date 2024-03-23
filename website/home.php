@@ -89,7 +89,7 @@
         </div>
         <!-- product categories -->
 
-        <!--  -->
+        <!-- about section 2 -->
         <div id="about-section-2" class="flex-row mt-100">
             <div class="container-50" id="left"></div>
             <div id="right" class="container-50">
@@ -105,15 +105,35 @@
                 </a>
             </div>
         </div>
-        <!--  -->
+        <!-- about section 2 -->
 
         <!-- featured products -->
         <div class="app-padding mt-50 mb-20">
             <h2 class="text-align-center">Featured Products</h2>
         </div>
 
-        <div id="featured-products-section" class="mb-100"></div>
+        <div id="featured-products-section"></div>
         <!-- featured products -->
+
+        <!-- product catalog -->
+        <div id="product-catalog" class="flex-row mt-100 mb-100">
+            <div id="left" class="container-50">
+                <h2>Get The Product Catalog</h2>
+                <p id="str-home-about-us" class="text-align-center">
+                    Need the PDF version of our products catalog for offline browsing?
+                    Provide us your email and we'll be happy to send it in no time!
+                </p>
+                <div id="get-catalog-form" class="app-form full-width catalog-form mt-20 mb-20 flex-column">
+
+                    <input type="email" name="user-email" id="user-email" placeholder="youremail@domain.ext" />
+                    <div class="flex-row justify-content-center mt-10">
+                        <button id="btn-get-catalog">GET CATALOG</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-50" id="right"></div>
+        </div>
+        <!-- product catalog -->
 
     </div>
     <?php include_once("components/footer.php") ?>

@@ -188,3 +188,30 @@
     /* align-items: center; */
     flex-wrap: wrap;
 }
+
+#product-catalog #left {
+    background-color: var(--colorPrimary);
+    color: white !important;
+    padding: 30px var(--appPadding);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#product-catalog #right {
+    background-image: url("../images/product_catalog.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+#get-catalog-form {
+    background-color: white;
+    padding: 50px 100px;
+}
+
+#get-catalog-form button {
+    padding: 10px;
+}
