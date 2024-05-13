@@ -24,7 +24,7 @@
                         <img src="./assets/icons/icon_location.png" alt="✉️">
                     </div>
                     <div class="text">
-                        Mabella Indstial Area, Sultanate of Oman
+                        Mabella Industrial Area, Sultanate of Oman
                     </div>
                 </a>
                 <div class="mt-20" id="footer-fish">

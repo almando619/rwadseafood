@@ -215,3 +215,31 @@
 #get-catalog-form button {
     padding: 10px;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    #get-catalog-form {
+        background-color: white;
+        padding: 50px 30px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #get-catalog-form {
+        background-color: white;
+        padding: 50px 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #get-catalog-form {
+        background-color: white;
+        padding: 50px 60px;
+    }
+}
+
+#catalog-feedback-container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}

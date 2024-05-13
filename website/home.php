@@ -124,8 +124,8 @@
                     Provide us your email and we'll be happy to send it in no time!
                 </p>
                 <div id="get-catalog-form" class="app-form full-width catalog-form mt-20 mb-20 flex-column">
-
-                    <input type="email" name="user-email" id="user-email" placeholder="youremail@domain.ext" />
+                    <input type="email" name="user-email-catalog" id="user-email-catalog" placeholder="youremail@domain.ext" />
+                    <div id="catalog-feedback-container"></div>
                     <div class="flex-row justify-content-center mt-10">
                         <button id="btn-get-catalog">GET CATALOG</button>
                     </div>
