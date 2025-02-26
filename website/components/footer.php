@@ -3,12 +3,12 @@
         <div id="footer-container" class="flex-row flex-wrap">
             <div class="container-50">
                 <h3 class="mb-10">Stay in Touch</h3>
-                <a href="tel:+24450069" class="footer-link">
+                <a href="tel:+96892828999" class="footer-link">
                     <div class="icon">
                         <img src="./assets/icons/icon_phone.png" alt="📞">
                     </div>
                     <div class="text">
-                        +24450069
+                        +968 9282 8999
                     </div>
                 </a>
                 <a href="mailto:sales@rwadseafood.com" class="footer-link">
