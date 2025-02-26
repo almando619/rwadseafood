@@ -1,4 +1,4 @@
-import products from "../products/products.json" assert { type: "json" };
+import products from "../products/products.json" with { type: "json" };
 if (window.location.pathname === `${Config.PATHNAME}/home`) {
   const productsContainer = $("#featured-products-section");
 
